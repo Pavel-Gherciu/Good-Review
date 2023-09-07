@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Roboto", sans-serif, arial;
+}
+
+body {
+  background-color: #FAFAFC;
+}
+
+header {
+  height: 70px;
+  background-color: #FFFFFF;
+  display: flex;
+}
+header div {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo-img {
+  height: 100%;
+  width: auto;
+  margin-left: 70px;
+  cursor: pointer;
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.navbar-element {
+  list-style: none;
+}
+
+#search-bar {
+  height: 42px;
+  width: 345px;
+  border: 1px solid #7B809A;
+  border-radius: 8px;
+  padding-left: 15px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  padding-right: 45px;
+}
+
+.sign-in-button {
+  background-color: #1E78E9;
+  border-radius: 8px;
+  padding: 6px 24px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+
+#landing-container {
+  width: 1903px;
+  height: 830px;
+  background: url("../images/top-bg.png");
+  position: relative;
+}
+
+.landing-img-cover {
+  width: 100%;
+  height: 100%;
+  background: #4F4F52;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  position: absolute;
+}
+
+.temp-empty {
+  height: 1000px;
+  width: auto;
+}
+
+aside {
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 100vh;
+  position: fixed;
+}
+
+.sidebar-list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+}
+.sidebar-list :nth-child(2) {
+  margin-top: 30px;
+}
+.sidebar-list :nth-child(3) {
+  margin-top: 30px;
+}
+.sidebar-list :nth-child(4) {
+  margin-top: 520px;
+}
+
+.sidebar-element {
+  cursor: pointer;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar-element div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar-element :hover {
+  background-color: gray;
+  transition: 0.3s;
+  opacity: 0.6;
+}
+
+.login-bg {
+  margin: 0 auto;
+  height: 100vh;
+  width: 100vw;
+  background: url("../images/top-bg.png");
+  position: relative;
+}
+
+.login-img-cover {
+  width: 100%;
+  height: 100%;
+  background: #4F4F52;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  position: relative;
+}
+
+.login-desc-section {
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding-left: 20%;
+  padding-top: 7.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-desc-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 380px;
+  justify-content: center;
+}
+
+.login-desc-title {
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 47px;
+  color: #FFFFFF;
+  max-width: 380px;
+}
+
+.login-desc-text {
+  max-width: 380px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+  padding-top: 24px;
+}
+
+.login-content-container {
+  display: flex;
+}
+
+.login-container {
+  max-width: 470px;
+  height: 60%;
+  background-color: #FAFAFC;
+}/*# sourceMappingURL=App.css.map */

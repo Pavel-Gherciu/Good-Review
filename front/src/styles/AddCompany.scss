@@ -1,0 +1,42 @@
+
+.ac-field{
+  margin-top: 5%;
+  margin-left: 150px;
+  height: 60%;
+  background-color: $main-bg-color;
+  border-radius: 24px 24px 0px 0px;
+}
+
+.ac-bg{
+  margin: 0 auto;
+  height: 150vh;
+  background: url("../images/top-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.ac-content-container{
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  padding-left: 20%;
+  padding-top: 7.5%;
+}
+
+.preview-container{
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 350px;
+}
+
+.preview-image-logo{
+  margin-top: 10px;
+  width: 75%;
+  height: auto;
+}
+
+.preview-image-big{
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+}

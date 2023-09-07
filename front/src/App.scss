@@ -1,0 +1,35 @@
+@import "./styles/variables";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("./fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; 
+}
+
+
+body{
+  font-family: "Roboto", sans-serif, arial;
+  
+}
+
+
+body{
+  background-color: $main-bg-color;
+}
+
+@import "./styles/Navbar";
+@import "./styles/Landing";
+@import "./styles/Sidebar";
+@import "./styles/Login";
+@import "./styles/ReviewTemplate";
+@import "./styles/CategoryTemplate";
+@import "./styles/CompanyTemplate";
+@import "./styles/AddCompany";
+@import "./styles/Footer";

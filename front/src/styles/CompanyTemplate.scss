@@ -1,0 +1,173 @@
+
+.comp-main{
+  padding-top: 70px;
+  padding-left: 70px;
+  background-color: $space-bg-color2;
+}
+
+.comp-intro-img{
+  width: 100%;
+  height: 230px;
+ //background-image: url("https://www.maib.md/storage/media/2022/07/26//image_1658826536_3fRqo4D2tI.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.comp-main-content{
+  padding: 80px 100px;
+  display: flex;
+}
+
+
+.comp-intro-container{
+  width: 1115px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.comp-intro-logo{
+  max-width: 415px;
+  height: auto;
+}
+
+.comp-title-container{
+  min-width: 400px;
+}
+
+.comp-title{
+  font-weight: 600;
+  font-size: 64px;
+  color: $font-color2;
+}
+
+.comp-under-title{
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+
+  :nth-child(1) {
+    color: $secondary-bg-color;
+  }
+
+  :nth-child(2) {
+    color: #757575;
+  }
+}
+
+
+.comp-info-container{
+  max-width: 1115px;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #212121;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  
+  Button{
+    margin-right: 10px;
+  }
+}
+
+.comp-review-nr{
+  padding-left: 10px;
+  padding-right: 50px;
+}
+
+.comp-about-container{
+  max-width: 1115px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #212121;
+}
+
+.comp-about-title{
+  font-size: 32px;
+  color: $button-color1;
+}
+
+.comp-about-content{
+  padding-top: 25px;
+  font-size: 20px;
+}
+
+
+.comp-side-container{
+  margin-left: 95px;
+  width: 424px;
+  height: 360px;
+  background-color: $bar-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 23px;
+}
+
+.comp-side-wrapper{
+  padding: 35px 40px;
+}
+
+.comp-side-link{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #212121;
+}
+
+.comp-side-phone{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: $button-color1;
+  font-size: 20px;
+  padding: 25px 0px 25px 0px;
+  font-weight: 600;
+  border-bottom: 1px solid #212121;
+}
+
+.comp-side-location{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: $button-color1;
+  font-size: 20px;
+  padding: 25px 0px 25px 0px;
+  border-bottom: 1px solid #212121;
+
+  div{
+    max-width: 270px;
+    white-space: pre-wrap;
+  }
+}
+
+
+.comp-review-container{
+  margin-top: 20px;
+  background-color: $bar-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 23px;
+  width: 49%;
+}
+
+.comp-review-wrapper-up{
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.comp-review-text{
+  padding: 0px 20px 20px 20px;
+}
+
+.comp-review-sorter{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.comp-review-img{
+  padding: 20px 20px;
+  width: 100%;
+  height: auto;
+}

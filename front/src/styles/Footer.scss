@@ -1,0 +1,27 @@
+footer{
+  background-color: $main-bg-color;
+}
+
+.footer-container{
+  padding: 65px 350px 60px 350px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-tab-title{
+  color: #344767;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footer-tab-links{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-tab-link{
+  margin-top: 10px;
+  color: #344767;
+  font-size: 14px;
+  text-decoration: none;
+}

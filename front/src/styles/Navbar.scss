@@ -1,0 +1,123 @@
+
+header{
+  position: absolute;
+  z-index: 4;
+  height: 70px;
+  background-color: $bar-color;
+  display: flex;
+  width: 100%;
+
+  div{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+}
+
+.logo-img{
+  height: 100%;
+  width: auto;
+  margin-left: 70px;
+  cursor: pointer;
+}
+
+.navbar-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+
+.navbar-element{
+  list-style: none;
+}
+
+#search-bar{
+  height: 42px;
+  width: 345px;
+  border: 1px solid #7B809A;
+  border-radius: 8px;
+  padding-left: 15px;
+}
+
+.navbar-left{
+  display: flex;
+  align-items: center;
+  padding-right: 45px;
+}
+
+.sign-in-button{
+  background-color: #1E78E9;
+  border-radius: 8px;
+  padding: 6px 24px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+
+
+.user-interface{
+  display: flex;
+
+  img{
+    padding: 10px 10px;
+    cursor: pointer;
+  }
+  
+  .user-container{
+    :nth-child(1){
+      margin-right: 15px;
+    }
+    :nth-child(2){
+      margin-right: 15px;
+    }
+  }
+}
+
+
+.user-list{
+  position: absolute;
+  z-index: 1;
+  top: 70px;
+  right: 110px;
+  text-align: center;
+  background-color: $main-bg-color;
+  list-style-type: none;
+  min-width: 100px;
+  padding: .5em .5em;
+
+  li{
+    padding-bottom: 10px;
+    font-weight: 700;
+  }
+
+}
+
+
+
+.sign-out-button{
+  cursor: pointer;
+  justify-content: center;
+  color: $font-color4;
+}
+
+.sign-out-button::before{
+  content: "";
+  background-color: $secondary-bg-color;
+  position: absolute;
+  right: 0;
+  top: 40%;
+  width: 0px;
+  height: 50%;
+  transition: width .2s ease-in-out;
+}
+
+.sign-out-button:hover::before{
+  width: 7px;
+  transition: width .2s ease-in-out;
+}
